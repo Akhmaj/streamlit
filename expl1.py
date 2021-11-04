@@ -1,5 +1,7 @@
 import streamlit as st
 import pandas as pd
+import sys
+!{sys.executable} -m pip install sklearn
 import sklearn
 from sklearn import datasets
 from sklearn.ensemble import RandomForestClassifier
